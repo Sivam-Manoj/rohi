@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Playfair Display', serif;
+}
+
+.bg1{
+    background-image: url("./assets/back.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    
+}
+.navbar{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+    gap: 3rem;
+    margin-right: 4px;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: 2px soild black;
+    cursor: pointer;
+    user-select: none;
+    width: auto;
+    height: 40px;
+    margin-top:20px;
+    padding: 3px;
+    overflow-y: hidden;
+    font-family: serif;
+    
+}
+.nav-ul li{
+    list-style-type: none;
+    overflow-y: hidden;
+    padding: 5px;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+    
+}
+.nav-ul li:nth-last-child(1){
+    margin-right: 20px;
+    
+}
+
+.nav-ul li a:hover, .nav-ul li a:focus{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 255, 255, 0.436);
+    border-radius: 10px;
+    transition: 1s;
+
+}
+.title1{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: white;
+    font-size: 120px;
+    font-weight: 900;
+    text-shadow: 5px 5px 3px black;
+    position: relative;
+    user-select: none;
+    top: 80px;
+
+}
+.logo1{
+    float: right;
+    position: absolute;
+    top: 60px;
+    left: 380px;
+}
+
+.quote{
+    position: relative;
+    color: white;
+    font-size: 23px;
+    left: 40px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    bottom: -80px;
+}
+
+.see{
+    position: relative;
+    font-size: 30px;
+    text-shadow: 4px 4px 3px rgb(0, 0, 0);
+    float: inline-end;
+    margin-right: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40%;
+    bottom: -100px;
+    padding: 20px;
+    font-family: serif;
+    outline: 2px solid rgb(255, 255, 255);
+    font-family: serif;
+    font-weight: 900;
+    
+}
+.see a{
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    
+}
+.see:hover{
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.577);
+    transform: scale(1.2);
+    transition: all 0.5s linear;
+    
+}
+.back2{
+    text-align: center;
+}
+#menus{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(238, 228, 228);
+}
+.menu-h1{
+    padding-top: 20px;
+    text-rendering: geometricPrecision;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 500px;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 40px;
+    box-shadow: -3px -3px  7px black,inset -1px 1px  7px black;
+    position: relative;
+    
+   
+}
+.img1{
+    background-image: url("./assets/briyani.jpg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset -2px -2px 5px  rgb(206, 195, 182);
+}
+.img2{
+    background-image: url("./assets/nasi.jpg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset -2px -2px 5px  rgb(206, 195, 182);
+}
+.img3{
+    background-image: url("./assets/samsa.jpg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset -2px -2px 5px  rgb(206, 195, 182);
+}
+.img4{
+    background-image: url("./assets/rolls.jpg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset -2px -2px 5px  rgb(206, 195, 182);
+}
+.img5{
+    background-image: url("./assets/kfc.jpg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset -2px -2px 5px  rgb(206, 195, 182);
+}
+.img6{
+    background-image: url("./assets/cho-cake.jpg");
+    width: 300px;
+    height: 300px;
+    background-size:cover ;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: inset -2px -2px 5px  rgb(206, 195, 182);
+}
+.title2 h4{
+    padding: 3px; 
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.567);
+}
+
+.discription p{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.526);
+    
+}
+.btn-1{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    background-color: azure;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+}
+.btn-1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    transform: scale(1.025);
+    outline: 2px dotted white;
+}
+.under p{
+    padding: 7px;
+    margin-left: 65px;
+    font-family: serif;
+    margin-top: 8px;
+    color: blue;
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+
+#recips{
+    width: 100vw;
+    height: auto;
+    background-color: antiquewhite;
+}
+.h1t2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 60px;
+    text-rendering: optimizeLegibility;
+}
+.card2{
+    width: 700px;
+    height: auto;
+    background-color: rgb(217, 227, 227);
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 30px;
+}
+.img01{
+    background-image: url("./assets/briyani2.jpg");
+    width: 680px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
+}
+.img02{
+    background-image: url("./assets/kfc.jpg");
+    width: 680px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
+}
+.img03{
+    background-image: url("./assets/cho-cake.jpg");
+    width: 680px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
+}
+.img04{
+    background-image: url("./assets/samsa.jpg");
+    width: 680px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
+    background-position: center; /* This property centers the background image */
+    background-clip: content-box;
+}
+.title01{
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.discription01 p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.ingrid{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.ingrid ul li {
+    font-family: serif;
+    font-weight: 600;
+}
+.display2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-right: 20px; 
+}
+
+#contacts{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+}
+.card3{
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    background-color: aliceblue;
+    font-family: serif;
+    box-shadow: inset -1px -1px 15px black;
+}
+.card3 input,.card3 button{
+    display: block;
+    margin: auto;
+    font-family: serif;
+}
+fieldset{
+    height: 500px;
+    border-radius: 20px;
+    border: 2cap;
+    
+}
+input[type="text"] {
+    color: black;
+    text-align: center;
+
+}
+#name{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: 20%;
+}
+#Message{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    top: 25%;
+
+}
+
+.card3 button{
+    position: relative;
+    top: 35%;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.362);
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card3 button:hover{
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#Message::placeholder{
+    text-align: center;
+}
+#name::placeholder{
+    text-align: center;
+
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    padding-top: 10px;
+}
